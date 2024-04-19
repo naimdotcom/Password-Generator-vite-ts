@@ -64,7 +64,10 @@ export default function PasswordGenerator() {
               value={length}
               onChange={(e) => setLength(Number(e.target.value))}
             />
-            <label className="bg-purple-900 px-2 py-1 rounded" htmlFor="">
+            <label
+              className="bg-slate-900 px-2 font-medium py-1 rounded text-white"
+              htmlFor=""
+            >
               {length}
             </label>
             <input
@@ -75,7 +78,9 @@ export default function PasswordGenerator() {
               }}
               className="rounded-full border-none outline-none"
             />
-            <label htmlFor="">Number</label>
+            <label className="text-slate-900 font-medium text-sm" htmlFor="">
+              Number
+            </label>
             <input
               type="checkbox"
               defaultChecked={sym}
@@ -83,7 +88,9 @@ export default function PasswordGenerator() {
                 setsym((e) => !e);
               }}
             />
-            <label htmlFor="">sym</label>
+            <label className="text-slate-900 font-medium text-sm" htmlFor="">
+              symbol
+            </label>
           </div>
         </div>
       </div>

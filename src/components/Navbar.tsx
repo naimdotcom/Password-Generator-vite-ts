@@ -5,7 +5,7 @@ export default function () {
         {/* <picture>
           <img src="" alt="logo" />
         </picture> */}
-        <h3 className="text-white font-bold text-lg border-2 px-2 py-1 rounded-xl border-blue-700">Naim AK</h3>
+        <h3 className="text-white font-bold text-lg border-2 px-2 py-1 rounded-xl border-blue-700 ">Naim AK</h3>
       </div>
     </>
   );
